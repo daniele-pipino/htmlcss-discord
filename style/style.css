@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -39,6 +42,14 @@ body{
     background-color: white;
     border-radius: 30px;
     font-size: 15px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    margin-top: 20px;
 }
 /* header */
 header{
@@ -128,21 +139,34 @@ header{
     color: whitesmoke;
 }
 /* first section */
-
+.first-section{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 .first-section .col.w-60 img{
     width: 90%;
 }
 
-.first-section .col.w-40 .firstsection-text{
+.first-section .col.w-40 .firstsection-text h2{
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px; 
 }
 
-.first-section .col.w-40 .firstsection-text h2{
-    font-size: 50px;
-}
 
 .first-section .col.w-40 .firstsection-text p{
     margin-top: 20px;
 }
+/* second section */
+.wave-section .bg{
+    background-color: rgb(189 189 189 / 25%);
+}
+
+.wave-section .col.w-40 .wave-section-text h2{
+    margin-top: 25px;
+}
+
+
+
+   
+ 
