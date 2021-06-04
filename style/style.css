@@ -32,7 +32,7 @@ body{
 }
 
 .btn{
-    text-decoration: none;
+    background-color: white;
     border-radius: 30px;
     font-size: 15px;
 }
@@ -48,7 +48,7 @@ header{
 
 .top-menu{
     height: 80px;
-    background-color: blue;
+    background-color:rgb(38 94 233);
     line-height: 80px;
 }
 /* colonna 1 */
@@ -70,8 +70,52 @@ header{
 /* terza colonna */
 
 .col .header-btn{
+    text-decoration: none;
     color: black;
     background-color: white;
     padding: 10px 15px;
+}
+/* bottom header */
 
+.hero-section{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-section .hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-section .hero-text h1{
+    font-size: 40px;
+}
+
+.hero-section .hero-text p{
+    margin-top: 30px;
+}
+
+.hero-text .hero-btns{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.hero-btns .btn-left{
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.hero-btns .btn-right{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
 }
