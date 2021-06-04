@@ -165,8 +165,35 @@ header{
 .wave-section .col.w-40 .wave-section-text h2{
     margin-top: 25px;
 }
+/* third section */
+.third-section{
+    margin-bottom: 30px;
+}
+/* last section */
+.last-section .bg{
+    background-color: rgb(189 189 189 / 25%);
+}
 
+.last-section.container{
+    position: relative;
+}
 
+.last-section .last-section-text{
+    padding-top: 30px;
+}
 
-   
- 
+.last-section.container .last-section-all{
+    text-align: center;
+}
+
+.last-section-all .last-button{
+    margin: 30px 0px;
+}
+
+.last-section-all .last-button .lastsection-btn{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: darkorchid;
+}
+/* footer */
