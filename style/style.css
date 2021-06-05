@@ -24,6 +24,10 @@ body{
 .w-40{
     width: 40%;
 }
+
+.w-15{
+    width: 15%;
+}
 .clearfix::after{
     content:'';
     display: table;
@@ -42,6 +46,7 @@ body{
     background-color: white;
     border-radius: 30px;
     font-size: 15px;
+    text-decoration: none;
 }
 
 h2{
@@ -172,6 +177,7 @@ header{
 /* last section */
 .last-section .bg{
     background-color: rgb(189 189 189 / 25%);
+    padding-bottom: 30px;
 }
 
 .last-section.container{
@@ -187,7 +193,7 @@ header{
 }
 
 .last-section-all .last-button{
-    margin: 30px 0px;
+    margin-top: 30px;
 }
 
 .last-section-all .last-button .lastsection-btn{
@@ -196,4 +202,54 @@ header{
     color: white;
     background-color: darkorchid;
 }
-/* footer */
+/* top footer */
+
+.f-bg{
+    background-color:  rgb(9 14 14 / 93%);
+}
+
+footer .footer-all{
+    padding-top: 80px;
+}
+
+.f-col h2{
+    color: cornflowerblue;
+}
+
+.f-col img{
+    width: 10%;
+}
+
+.footer-all .col.w-15 h3{
+    padding-top: 30px;
+    color: cornflowerblue;
+    margin-bottom: 15px;
+}
+
+.footer-all .col.w-15 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 5px 0;
+}
+
+#footer-hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-color: cornflowerblue;
+}
+
+/* bottom footer */
+.bottom-footer{
+    height: 100px;
+    position: relative;
+}
+.bottom-footer .footer-btn{
+    padding: 10px 15px;
+    color: white;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
