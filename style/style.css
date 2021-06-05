@@ -56,6 +56,7 @@ h2{
 p{
     margin-top: 20px;
 }
+
 /* header */
 header{
     color: white;
@@ -175,6 +176,7 @@ header{
     margin-bottom: 30px;
 }
 /* last section */
+
 .last-section .bg{
     background-color: rgb(189 189 189 / 25%);
     padding-bottom: 30px;
@@ -194,6 +196,7 @@ header{
 
 .last-section-all .last-button{
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .last-section-all .last-button .lastsection-btn{
@@ -214,10 +217,21 @@ footer .footer-all{
 
 .f-col h2{
     color: cornflowerblue;
+    margin-bottom: 10px;
 }
 
 .f-col img{
     width: 10%;
+}
+
+.footer-all .icon{
+    margin-top: 10px;
+}
+
+.footer-all .icon a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 15px;
 }
 
 .footer-all .col.w-15 h3{
